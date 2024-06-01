@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "929606688665",
+    "project_id": "cab-ren-183b2",
+    "storage_bucket": "cab-ren-183b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929606688665:android:f1481a911388af2f263d08",
+        "android_client_info": {
+          "package_name": "com.example.cab_ren"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929606688665-0vuhqbedfl0o44vpfgccvf435vu6nct3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtle70nRhuvguVnXvg0bGQMy6Fi3ai1PM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929606688665-0vuhqbedfl0o44vpfgccvf435vu6nct3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "929606688665-s8htvra1vslm8796gkqveg1g2lg96qf7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cabRen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

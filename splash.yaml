@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/cab-ren-splash-logo-black.jpg
+  image_dark: assets/logos/cab-ren-splash-logo-white.jpg
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/cab-ren-splash-logo-black.jpg
+    image_dark: assets/logos/cab-ren-splash-logo-white.jpg
+
+    web: false

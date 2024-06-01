@@ -1,0 +1,96 @@
+name: cab_ren
+description: A new Flutter project
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+# --------- PACKAGES --------- #
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  lottie: ^3.1.0
+  shimmer: ^3.0.0
+  image_picker: ^1.1.1
+  url_launcher: ^6.1.12
+  connectivity_plus: ^5.0.2
+  flutter_native_splash: ^2.3.1
+  smooth_page_indicator: ^1.1.0
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+
+  # State Management
+  readmore: ^2.2.0
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+  flutter_rating_bar: ^4.0.1
+  capped_progress_indicator: ^0.0.2
+  carousel_slider: ^4.2.1
+
+  # Firebase
+  firebase_core: ^2.27.1
+  firebase_auth: ^4.17.7
+  cloud_firestore: ^4.15.7
+  google_sign_in: ^6.2.1
+  firebase_storage: ^11.7.5
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.1
+
+# --------- PACKAGES END--------- #
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # --------- LOCAL ASSETS--------- #
+  assets:
+    - assets/animations/
+    - assets/logos/
+    - assets/images/content/
+    - assets/images/animations/
+    - assets/images/banners/
+    - assets/images/content/
+    - assets/images/on_boarding_images/
+    - assets/images/products/
+    - assets/images/reviews/
+    - assets/images/user/
+    - assets/icons/payment_methods/
+    - assets/icons/categories/
+    - assets/icons/brands/
+
+
+  # ---------  LOCAL FONTS --------- #
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/urbanist/Urbanist-Light.ttf
+          weight: 300
+        - asset: assets/fonts/urbanist/Urbanist-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/urbanist/Urbanist-Italic.ttf
+          style: italic
+        - asset: assets/fonts/urbanist/Urbanist-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/urbanist/Urbanist-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/urbanist/Urbanist-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/urbanist/Urbanist-Bold.ttf
+          weight: 800
